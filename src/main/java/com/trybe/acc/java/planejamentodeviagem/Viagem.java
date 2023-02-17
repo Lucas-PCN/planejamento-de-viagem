@@ -47,8 +47,8 @@ public class Viagem {
 
     String infosDoVoo = voo.retornarInformacaoVoo(embarque, origem,
     		this.retonarDesembarqueHorarioLocalDestino(), destino);
-    String horarioDestino = tempoViagem.retornarDesembarqueHorarioLocalDestino();
-    String horarioOrigem = tempoViagem.retornarDesembarqueHorarioLocalOrigem();
+    String horarioDestino = tempoViagem.retonarDesembarqueHorarioLocalDestino();
+    String horarioOrigem = tempoViagem.retonarDesembarqueHorarioLocalOrigem();
     
     String infoCompletaViagem = infosDoVoo
     		+ "Atenção: o desembarque em " + destino
