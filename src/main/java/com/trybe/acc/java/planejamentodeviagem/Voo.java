@@ -13,8 +13,8 @@ public class Voo {
   public int retornarTempoVoo(double distanciaKm) {
 
     Double duracaoDouble = distanciaKm / 700.0;
-    duracaoVoo = duracaoDouble.intValue();
-    return duracaoVoo;
+    tempoVoo = duracaoDouble.intValue();
+    return tempoVoo;
   }
 
   /**
