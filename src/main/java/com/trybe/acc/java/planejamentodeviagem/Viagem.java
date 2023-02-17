@@ -46,14 +46,14 @@ public class Viagem {
         new Tempo(this.embarque, this.origem, this.destino, this.retornarDuracaoVoo());
 
     String infosDoVoo = voo.retornarInformacaoVoo(embarque, origem,
-    		this.retonarDesembarqueHorarioLocalDestino(), destino);
+            this.retonarDesembarqueHorarioLocalDestino(), destino);
     String horarioDestino = tempoViagem.retonarDesembarqueHorarioLocalDestino();
     String horarioOrigem = tempoViagem.retonarDesembarqueHorarioLocalOrigem();
     
     String infoCompletaViagem = infosDoVoo
-    		+ "Atenção: o desembarque em " + destino
-    		+ " será: " + horarioDestino + " no horário de " + destino
-    		+ " e " + horarioOrigem + " no horário de " + origem;
+        + "Atenção: o desembarque em " + destino
+        + " será: " + horarioDestino + " no horário de " + destino
+        + " e " + horarioOrigem + " no horário de " + origem;
 
     return infoCompletaViagem;
   }
