@@ -23,6 +23,10 @@ public class Voo {
    */
   public String retornarInformacaoVoo(String embarque, String origem, String desembarque,
       String destino) {
-    /* Implemente sua solução aqui */
+    return "Partida: " + embarque + "\n"
+        + "Origem " + origem + "\n"
+        + "\n"
+        + "Chegada " + desembarque + "\n"
+        + "Destino " + destino + "\n"
   }
 }
