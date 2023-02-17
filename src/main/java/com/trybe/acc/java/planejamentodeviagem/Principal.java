@@ -2,6 +2,9 @@ package com.trybe.acc.java.planejamentodeviagem;
 
 import java.util.Scanner;
 
+/**
+ * class Principal.
+ */
 public class Principal {
 
   /**
