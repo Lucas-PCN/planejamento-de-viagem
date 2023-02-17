@@ -27,6 +27,6 @@ public class Voo {
         + "Origem " + origem + "\n"
         + "\n"
         + "Chegada " + desembarque + "\n"
-        + "Destino " + destino + "\n"
+        + "Destino " + destino + "\n";
   }
 }
